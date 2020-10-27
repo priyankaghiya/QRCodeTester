@@ -43,7 +43,8 @@ public class MainActivity extends Activity
             @Override
             public void onClick(View view)
             {
-
+                Intent i2=new Intent(getApplicationContext(),QRCodeScanner.class);
+                startActivity(i2);
             }
         });
     }
