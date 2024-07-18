@@ -1,4 +1,13 @@
 # QRCode Testing
+Created an object for the QRCodeWriter class,to generate the QR Code based on the Text provided by the user.
+In the backend, had used the encode method of the class, which returns a 2D array stored in BitMatrix.
+Now, created a blank canvas and by looping through it, set its pixel colour to black and white and set that for that image.
+Handled the exception, by displaying the toast message.
+
+
+Used ZXingScannerView.ResultHandler interface, which is one of the most popular open source API for integrating QR Code Processing.Used its method inorder to open, pause and stop
+the device camera for scanning the QRcode.
+<br/><br/>
 > For the Main Screen User will be able see three options <br/>
   > 1. Enter Text <br/>
   > 2. Generate QR Code <br/>
